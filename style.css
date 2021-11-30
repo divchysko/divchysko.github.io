@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+	
+    margin: 0;
+    background-color: #4b1010;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+.regular {
+	 text-align: center;
+    font-size: 25pt;
+    font-weight: 500;
+    font-family: "Amatic SC", cursive;
+    color: white;
+
+
+}
+
+.porto {
+    text-align: center;
+    color: white;
+    font-size: 50pt;
+    font-weight: 500;
+    font-family: "Amatic SC", cursive;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-size: 50pt;
+    font-weight: 500;
+    font-family: "Amatic SC", cursive;
+}
+
+.section {
+    width: 100vw; /* 100% == 100vw vieport width */
+    max-width: 100%; /* hack for 100vw */
+    height: 930px; /* VH = viewport height */
+}
+
+.section-about {
+
+    background-image: url("top.jpg");
+	background-size: cover;
+}
+
+/*.section-portfolio {*/
+/*    background-color: #b42a2a;*/
+/*}*/
+
+.section-contacts {
+   background-image: url("top.jpg");
+	background-size: cover;
+    height: 300px;
+}
+
+.header {
+    background-image: url("Background.jpg");
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .wrapper,
+.section .wrapper {
+
+    width: 960px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: white;
+    font-size: 15pt;
+    font-weight: 800;
+    font-family: 'Comforter Brush', cursive;
+    text-decoration: none;
+    background-color: transparent;
+    padding-left: 1pt;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20pt;
+}
+
+.menu li {
+    width: 100%;
+}
+
+.menu a {
+    font-size: 18pt;
+    font-weight: 700;
+    font-family: 'Amatic SC', cursive;
+    width: 100%;
+    text-align: right;
+    padding-right: 1pt;
+}
+
+.conteiner {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.grid--view {
+    display: flex;
+}
+
+h2 {
+    font-size: 64px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 900;
+	padding-left: 35pt;
+	padding-right: 10pt;
+}
+
+p {
+    font-family: 'Poiret One', cursive;
+    font-size: 18px;
+	padding-left: 35pt;
+	padding-right: 10pt;
+}
+
+.conteiner{
+    margin-bottom: 50px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    color: #fff;
+}
+
+
+.conteiner-text {
+    text-align: center;
+    padding: 0 50pt 100pt 50pt;
+}
+
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.gallery-item {
+    width: 23%;
+}
+
+.gallery-item img {
+    width: 100%;
+
+}
+
+.section-footer {
+
+	 background-image: url("top.jpg");
+	background-size: cover;
+}
+
+.footer {
+    display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+    
+}
+.regular{
+    
+	margin: 0 15%;
+}

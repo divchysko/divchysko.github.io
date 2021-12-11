@@ -55,7 +55,7 @@ a:hover {
 
 .section-about {
 
-    background-image: url("top.jpg");
+    background-image: url("footer/footer.jpg");
 	background-size: cover;
 }
 
@@ -64,13 +64,13 @@ a:hover {
 /*}*/
 
 .section-contacts {
-   background-image: url("top.jpg");
+   background-image: url("background/top.jpg");
 	background-size: cover;
     height: 300px;
 }
 
 .header {
-    background-image: url("Background.jpg");
+    background-image: url("background/Background.jpg");
     position: fixed;
     top: 0px;
     left: 0px;
@@ -182,7 +182,7 @@ p {
 
 .section-footer {
 
-	 background-image: url("top.jpg");
+	 background-image: url("footer/footer.jpg");
 	background-size: cover;
 }
 
